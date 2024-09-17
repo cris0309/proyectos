@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Arregla el problema de las tildes -->
+        <meta charset="UTF-8">
+        <!-- Adapta la pantala segun el tamaño -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Permite a los buscadores encontrar ua pagina en sus resultados -->
+        <meta name="description" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript">
+        <title>Este es el título del documento</title>
+        <link rel="stylesheet" href="CSS/misestilos.css">
+        <!-- favicon permite colocar un icono para la pagina -->
+    </head>
+    <body>
+        <!-- Contendor de toda la página -->
+        <div id="agrupar">
+            <header id="cabecera">
+                <h1>Este es el título principal del sitio Web</h1>
+            </header>
+            <!-- menú principal -->
+            <nav id="menu">
+                <ul>
+                    <li>Principal</li>
+                    <li>Fotos 
+                        <ul>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">HTML</a></li>
+                        </ul>
+                    </li>
+                    <li>Videos</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+            <section id="seccion">
+                <!-- Una información de la página -->
+                <article>
+                    <header>
+                        <!-- Agrupa elementos tipo h1,h2,h3... -->
+                        <hgroup>
+                            <h1>Titulo del mensaje uno</h1>
+                            <h2>Subtitulo del mensaje uno</h2>
+                        </hgroup>
+                        <time datetime="2011-12-15" pubdate> Publicado el 10/12/2011 </time>
+                    </header>
+                    Este es el texto de mi primer mensaje
+                    <!-- Agrupa las imagenes -->
+                    <figure>
+                        <img src="res/floresatardcer.jpg" alt="">
+                        <figcaption>Texto de la imagen del segundo mensaje</figcaption>
+                    </figure>
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                </article>
+
+                 <!-- Una información de la página -->
+                 <article>
+                    <header>
+                        <!-- Agrupa elementos tipo h1,h2,h3... -->
+                        <hgroup>
+                            <h1>Titulo del mensaje dos</h1>
+                            <h2>Subtitulo del mensaje dos</h2>
+                        </hgroup>
+                        <time datetime="2011-12-15" pubdate> Publicado el 12/12/2011 </time>
+                    </header>
+                    Este es el texto de mi segundo mensaje 
+                    <!-- Agrupa las imagenes -->
+                    <figure>
+                        <img src="res/universo.webp" alt="">
+                        <figcaption>Texto de la imagen del segundo mensaje</figcaption>
+                    </figure>
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                </article>
+            </section>
+            <!-- bArra lateral con información adicional -->
+            <aside id="columna">
+                <blockquote>Mensaje número uno</blockquote>
+                <blockquote>Mensaje número dos</blockquote>
+            </aside>
+            <!-- Pie de página -->
+            <footer id="pie">
+                Derechos resevrados &copy; Informatica Desarrollo Web 2024.
+            </footer>
+        </div>
+    </body>
+</html>
